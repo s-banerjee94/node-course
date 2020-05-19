@@ -1,6 +1,10 @@
 const validator = require('validator')
-console.log(validator.isEmail('shondh.tara94@gmail.com'))
-console.log(validator.isEmail('@gmail.com'))
+console.log('This Email is valid. ' + validator.isEmail('shondh.tara94@gmail.com'))
+console.log('This Email is valid. ' +validator.isEmail('@gmail.com'))
+
+console.log('This URL is valid. ' +validator.isURL('www.google.com'))
+console.log('This URL is valid. ' +validator.isURL('google.com'))
+console.log('This URL is valid. ' +validator.isURL('https:google.com'))
 
 
 const gN = require('./notes.js')
