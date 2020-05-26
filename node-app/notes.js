@@ -1,4 +1,4 @@
-const name = 'Sandeepan'
+const name = 'Sandeepan Banerjee'
 const getNotes = function() {
     return name
 }
